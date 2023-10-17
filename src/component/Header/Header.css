@@ -1,0 +1,12 @@
+header{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(8, 45, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color:var(--main-color-2);
+}
+
+

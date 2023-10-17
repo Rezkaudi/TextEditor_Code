@@ -1,0 +1,7 @@
+.footer {
+    width: 100vw;
+    height: 30px;
+    text-align: center;
+    background-color: var(--main-color-3);
+    color: var(--main-color-4);
+}

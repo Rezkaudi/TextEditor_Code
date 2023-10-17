@@ -1,0 +1,49 @@
+.ql-editor {
+    overflow-y: scroll;
+    resize: vertical;
+
+}
+
+
+
+.ql-container {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background: var(--main-color-4);
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+
+
+/* Snow Theme */
+.ql-snow.ql-toolbar {
+    display: block;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background: var(--main-color-4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+.ql-editor {
+    min-height: calc(100vh - 100px);
+
+}
+
+
+@media (max-width:991px) {
+
+    .ql-container,
+    .ql-snow.ql-toolbar {
+        margin: 0;
+    }
+
+
+}
