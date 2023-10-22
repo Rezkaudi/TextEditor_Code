@@ -1,0 +1,9 @@
+
+.preview-button {
+    width: fit-content;
+    padding: 20px;
+    margin: 50px;
+    background-color: var(--main-color-3);
+    border-radius: 20px;
+    color: var(--main-color-2);
+}

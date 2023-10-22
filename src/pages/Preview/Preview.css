@@ -1,0 +1,21 @@
+.preview {
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 auto;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 90vw;
+    overflow-x: hidden;
+
+    background-color: var(--main-color-4);
+}
+
+.ql-align-right {
+    text-align: right;
+}
+
+.ql-direction-rtl {
+    direction: rtl;
+}
