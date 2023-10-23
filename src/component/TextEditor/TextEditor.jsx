@@ -37,8 +37,7 @@ const TextEditor = () => {
 
     return (
         <>
-            <ReactQuill style={{ width: "100vw", minHeight: "50vh" }} modules={modules} theme="snow" value={preview} onChange={setPreview} />
-            <button onClick={() => { console.log(preview) }}>bcxcv</button>
+            <ReactQuill modules={modules} theme="snow" value={preview} onChange={setPreview} />
         </>
     )
 }
