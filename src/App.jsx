@@ -1,27 +1,28 @@
-import './App.css';
-
-
-import Header from './component/Header/Header'
-import Footer from './component/Footer/Footer';
-import Container from './component/Container/Container';
-import Preview from './pages/Preview/Preview';
-import Home from './pages/Home/Home';
-
-
+// Librarys
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-
-import PreviewContext from './Context/PreviewContext'
 import { useState } from 'react'
 
+// Styles 
+import './App.css';
+
+// Components 
+import Header from './Component/Header/Header'
+import Footer from './Component/Footer/Footer';
+import Container from './Component/Container/Container';
+import Preview from './Pages/Preview/Preview';
+import Home from './Pages/Home/Home';
+
+//Context
+import PreviewContext from './Context/PreviewContext'
 
 
+//*********************************************************/
 
-function App() {
-
+const App = () => {
 
   const [preview, setPreview] = useState('')
-
   const value = { preview, setPreview }
+  
 
   return (
     <PreviewContext.Provider value={value}>

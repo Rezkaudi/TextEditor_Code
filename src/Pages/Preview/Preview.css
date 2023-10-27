@@ -1,0 +1,37 @@
+.preview {
+  
+    border: 1px dashed var(--main-color-1);   
+    display: flex;
+ 
+    margin: 0 auto;
+    flex-direction: column;
+    
+    min-height: 11.69in;
+    width: 9.27in;    
+    overflow-y: auto;
+
+    overflow-x: hidden;
+    word-wrap: break-word;
+    background-color: var(--main-color-4);
+    
+    border: 3px solid var(--main-color-1) !important;
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.preview .ql-align-right {
+    text-align: right !important; 
+}
+
+
+
+@media (max-width:991px) {
+
+    .preview{
+        width: 95vw
+    }
+
+
+}
